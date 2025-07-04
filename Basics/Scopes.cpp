@@ -33,7 +33,9 @@ Recap of Scopes Used:
 
 Variable   Scope Type       Accessible Where
 
-a          Local & Global   Local 'a' inside main(), Global 'a' using ::a
+a          Local & Global  Local 'a' is accessible only inside main().
+                           Global 'a' is accessible using the scope resolution operator (::a).
+                           
 b          Global           Accessible anywhere in main()
 c          Local            Accessible throughout main() and inside blocks
 d          Block Scope      Only accessible inside the inner { } block
