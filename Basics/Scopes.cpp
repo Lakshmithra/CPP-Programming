@@ -8,6 +8,12 @@ using namespace std;
 int a = 10;
 int b = 6;
 
+// Function scope
+
+void print(){
+    int l = 26;       // Variable 'l' is only accessible inside this function
+    cout<<l<<endl;
+}
 int main(){
 
     int a = 5;                                // Local variable (shadows global 'a')
@@ -39,5 +45,6 @@ a          Local & Global  Local 'a' is accessible only inside main().
 b          Global           Accessible anywhere in main()
 c          Local            Accessible throughout main() and inside blocks
 d          Block Scope      Only accessible inside the inner { } block
+l          Function Scope    Accessible only inside the function 'print()'.
 */
 
