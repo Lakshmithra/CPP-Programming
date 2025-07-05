@@ -11,7 +11,7 @@ int main(){
     cin>>height;
 
     if((weight<=0)|| (height<=0)){
-        cout<<"Invalid Input ! Enter valid postitive values for height and weight "<<endl;
+        cout<<"Invalid Input ! Enter valid positive values for height and weight "<<endl;
         return 1;
     }
 
