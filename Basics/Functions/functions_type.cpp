@@ -16,16 +16,15 @@
 #include<iostream>
 using namespace std;
 
-// Defining functions
-int mul(int x,int y){
-     int z = x * y;
+int mul(int x,int y){          // Defining functions (return type , function name , parameters (if any)
+     int z = x * y;            // Declaring function (code block to be executed)
      return z;
 }
 int main(){
 
     int a = 8 , b = 18;
     int ans = mul(a,b);    // Calling the functions and storing the return value
-    cout<<ans;             //Printing the result
+    cout<<ans;             // Printing the result
     return 0;
 
 }
