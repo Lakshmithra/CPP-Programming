@@ -52,4 +52,5 @@ int main(){
     - Inside the function, the array parameter can be written as either 'int arr[]' or 'int *arr'.
     - Since the array size isn't passed automatically, we include it as a separate parameter.
     - This method is useful for modifying arrays or processing large datasets without copying.
+    - Array size inside parameter brackets is ignored; pass size separately as an argument.
 */
