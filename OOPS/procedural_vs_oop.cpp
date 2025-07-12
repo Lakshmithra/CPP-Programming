@@ -1,3 +1,19 @@
+/*
+    Procedural vs OOP – Spark Analogy (Cooking)
+    
+    Procedural:
+    Every time you cook, you gather ingredients, follow the recipe, and do everything from scratch.
+    You manage both the ingredients (data) and the steps (logic) manually.
+    
+    OOP:
+    You hire a personal chef. You give them the recipe once.
+    From then on, they store the ingredients and handle the cooking when asked.
+    
+    Key Spark:
+    Procedural = You do all steps every time (manual cooking).
+    OOP        = Object (chef) stores and handles both data and actions for you.
+*/
+
 #include<iostream>
 using namespace std;
 
@@ -18,9 +34,9 @@ int perimeter (int s){
 /* Object-Oriented Programming Part
 
    Class definition for a square
-   This class contains data (side of the square) and member functions to calculate area and perime
+   This class contains data (side of the square) and member functions to calculate area and perimeter
 */
-class square {
+class Square {
     
     // Private member variable to store the side of the square
     
@@ -61,7 +77,7 @@ int main(){
     // Using object-oriented approach
     // We create an object of the square class and use its methods
 
-    square sq;
+    Square sq;
     sq.getside(side);     // Set the side value inside the object
 
     // We call the object's own methods to get area and perimeter
@@ -73,18 +89,3 @@ int main(){
     return 0;
 }
 
-/*
-    Procedural vs OOP – Spark Analogy (Cooking)
-    
-    Procedural:
-    Every time you cook, you gather ingredients, follow the recipe, and do everything from scratch.
-    You manage both the ingredients (data) and the steps (logic) manually.
-    
-    OOP:
-    You hire a personal chef. You give them the recipe once.
-    From then on, they store the ingredients and handle the cooking when asked.
-    
-    Key Spark:
-    Procedural = You do all steps every time (manual cooking).
-    OOP        = Object (chef) stores and handles both data and actions for you.
-*/
