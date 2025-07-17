@@ -44,7 +44,7 @@ int main(){
   Friend Function in C++:
 
   A friend function is declared inside a class using the 'friend' keyword.
-  It is not a member of the class but can access private and protected member.
+  It is not a member of the class but can access private and protected members.
   Friend functions can also access private functions of a class.
 
   Syntax:
@@ -58,4 +58,12 @@ int main(){
     void showData(MyClass obj) {
         // Can access obj.data
     }
+
+  Real-life Analogy:
+  
+  Think of a person who keeps a personal diary (private information).
+  Normally, no one else can read it. But they trust a close friend 
+  (the friend function) and give them permission to read it.
+  So even though that friend isn't part of the family (class),
+  they're allowed to see the secrets.
 */
