@@ -1,4 +1,4 @@
-// Program to demonstrate function template in C++
+ // Program to demonstrate function template in C++
 
 #include <iostream>
 using namespace std;
@@ -10,9 +10,9 @@ void sum(T1 x , T2 y){
 
 int main(){
     
-    sum(8,18);
-    sum(1.2,5.2);
-    sum(5,6.3);
+    sum(8,18);         //  sum<int, int>(8, 18); 
+    sum(1.2,5.2);      //  sum<double, double>(1.2, 5.2); 
+    sum(5,6.3);        //  sum<int, double>(5, 6.3);
     
    
     return 0;
