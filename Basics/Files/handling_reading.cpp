@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    ifstream fin("filehandling.cpp");
+    ifstream fin("filehandling.cpp");     // Default : ios::in - read from file
   
     if(!fin.is_open()){
         cout<<"File can't be opened";
