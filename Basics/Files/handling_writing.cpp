@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
 
-    ofstream fout ("filehandling.cpp");
+    ofstream fout ("filehandling.cpp");     // Default : ios::out - Write to file
   
     if(fout.is_open()){
         cout<<"File is opened ";
