@@ -37,6 +37,7 @@ int main(){
     
       Function Overloading:
       - Function Overloading in a Class = Compile-Time Polymorphism
+      - Constructor Overloading = Compile-Time Polymorphism (since constructor is a special function)
       - Same function name with different types or numbers of parameters.
       - All overloaded functions must be in the same class or scope.
       - The compiler picks the right function during compilation.
