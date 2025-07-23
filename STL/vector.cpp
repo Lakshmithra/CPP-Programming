@@ -110,33 +110,41 @@ int main()
       
     return 0;
 }
-  /*
-      VECTOR
-    
-      A vector is a dynamic array (resizable) provided by the C++ STL (Standard Template Library).
-      It can grow or shrink in size automatically during runtime.
-      All elements must be of the same data type.
-      Vectors store elements in contiguous memory like arrays.
-    
-      FUNCTIONS USED IN THIS PROGRAM
-    
-      empty()      : Checks if the vector is empty (returns 1 if true, 0 if not).
-      assign({})   : Assigns multiple values to the vector at once.
-      front()      : Returns the first element of the vector.
-      at(index)    : Safely accesses an element at a specific index.
-      back()       : Returns the last element of the vector.
-      push_back()  : Adds an element at the end of the vector.
-      pop_back()   : Removes the last element from the vector.
-      insert()     : Inserts elements at a given position using iterator.
-                     Syntax: insert(position, value) or insert(position, count, value)
-      erase()      : Removes element(s) from a given position using iterators.
-                     Syntax: erase(position) or erase(start, end)
-      clear()      : Removes all elements in the vector.
-      size()       : Returns the number of elements in the vector.
-    
-      NOTE ON ITERATORS
-    
-      Iterators are like pointers that point to positions in the vector.
-      Functions like insert() and erase() need iterators to know where to work.
-      Examples: begin(), end()
-  */
+/*
+    VECTOR IN C++ STL
+
+    A vector is a dynamic array (resizable) provided by the C++ STL.
+    It stores elements in contiguous memory like arrays but resizes dynamically.
+    All elements must be of the same type.
+
+    FUNCTIONS USED IN THIS PROGRAM
+
+    - empty()        → Checks if the vector is empty
+    - assign({})     → Assigns multiple values to the vector
+    - front()        → Returns the first element
+    - at(index)      → Safely accesses an element (throws error if out of bounds)
+    - back()         → Returns the last element
+    - push_back()    → Adds element at the end
+    - pop_back()     → Removes the last element
+    - insert()       → Inserts element(s) at a given position (using iterator)
+    - erase()        → Removes element(s) from a position or range (using iterator)
+    - clear()        → Removes all elements
+    - size()         → Returns number of elements
+
+    ADDITIONAL IMPORTANT FUNCTIONS (Not used in code but useful to know)
+
+    - begin()        → Returns iterator to the first element
+    - end()          → Returns iterator to the element past the last
+    - rbegin()       → Returns reverse iterator starting from last element
+    - rend()         → Returns reverse iterator past the first element
+    - resize(n)      → Changes size of vector to hold n elements
+    - capacity()     → Returns number of elements vector can hold without reallocating
+    - shrink_to_fit()→ Requests the container to reduce capacity to fit its size
+    - swap(v2)       → Swaps contents of two vectors
+
+    NOTE ON ITERATORS
+
+    Iterators are like pointers pointing to positions in the vector.
+    Functions like insert(), erase(), begin(), end() all rely on iterators.
+
+*/
