@@ -91,7 +91,7 @@ int main(){
         cout<<"\n\nThe number greater than or equal to 4 : "<<*it3<<endl;
     }
     else{
-        cout<<"\nLower bound not found !\m";
+        cout<<"\nLower bound not found !\n";
     }
 
     auto it4 = numbers.upper_bound(6);
@@ -100,7 +100,7 @@ int main(){
         cout<<"\n\nThe number greater than 6 : "<<*it4<<endl;
     }
     else{
-        cout<<"\nUpper bound not found !\m";
+        cout<<"\nUpper bound not found !\n";
 
     }
 
