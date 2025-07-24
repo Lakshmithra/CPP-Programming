@@ -32,6 +32,11 @@ int main(){
     cout<<"\nTomato : "<<fridge["Tomato"];
     cout<<"\nPotato : "<<fridge.at("Potato")<<endl;
 
+    /*
+        A map does not allow duplicate keys — insert() ignores repeated keys, 
+       but using map[key] = value will overwrite the existing key's value.
+    */
+
     fridge["Onion"] = 16;
     fridge.insert({"Carrot" , 20});
     fridge.insert({"Beans" , 14});
