@@ -20,9 +20,11 @@ Features :-
 
 - Replaces the original file with updated content after every modification
 
+
 How to Run ?
 
 Compile: g++ medicine_tracker.cpp -o medicine_tracker
+
 Run: ./medicine_tracker
 
 File Used :-
@@ -30,6 +32,7 @@ File Used :-
 Medicine_Tracker.txt
 
 Each medicine record is stored in the following format:
+
 Name|Dosage|Time|Status|
 
 Example:
