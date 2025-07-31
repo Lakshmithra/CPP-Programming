@@ -4,28 +4,28 @@ This is a simple and purposeful console-based medicine tracker built using C++. 
 
 This is my first C++ project, created to practice file handling, classes, condition checks, and user interaction in C++.
 
-Features
+Features :-
 
-Add new medicine records with name, dosage, time, and default status
+- Add new medicine records with name, dosage, time, and default status
 
-View all saved medicines in a clean and organized table format
+- View all saved medicines in a clean and organized table format
 
-Update the status of a specific medicine to “Taken” or leave as “Not Taken”
+- Update the status of a specific medicine to “Taken” or leave as “Not Taken”
 
-Delete any medicine record with confirmation before removal
+- Delete any medicine record with confirmation before removal
 
-Handles basic input validation and accepts lowercase responses for consistency
+- Handles basic input validation and accepts lowercase responses for consistency
 
-Stores and retrieves data from a file to preserve it across sessions
+- Stores and retrieves data from a file to preserve it across sessions
 
-Replaces the original file with updated content after every modification
+- Replaces the original file with updated content after every modification
 
-How to Run
+How to Run ?
 
 Compile: g++ medicine_tracker.cpp -o medicine_tracker
 Run: ./medicine_tracker
 
-File Used
+File Used :-
 
 Medicine_Tracker.txt
 
@@ -35,7 +35,7 @@ Name|Dosage|Time|Status|
 Example:
 Paracetamol|500mg|Morning|Not Taken|
 
-Important Note
+Important Note :-
 
 The program uses a simple file format to read and write records. Avoid editing the text file manually, as it may cause unexpected behavior. All changes should be made through the program.
 
